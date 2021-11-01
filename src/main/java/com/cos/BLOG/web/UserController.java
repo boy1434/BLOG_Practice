@@ -8,19 +8,19 @@ import org.springframework.web.bind.annotation.PathVariable;
 public class UserController {
 
     // 로그인 페이지 이동
-    @GetMapping("loginForm")
+    @GetMapping("user/loginForm")
     public String loginForm() {
         return "user/loginForm";
     }
 
     // 회원가입 페이지 이동
-    @GetMapping("joinForm")
+    @GetMapping("user/joinForm")
     public String joinForm() {
         return "user/joinForm";
     }
 
-    // 회원 상페보기 페이지 이동
-    @GetMapping("/user/{id}")
+    // 회원 상세보기 페이지 이동
+    @GetMapping("user/{id}")
     public String userInfo(@PathVariable int id) {
         return "user/updateForm";
     }
