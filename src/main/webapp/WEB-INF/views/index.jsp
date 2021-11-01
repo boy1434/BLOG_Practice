@@ -1,14 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-    <!DOCTYPE html>
-    <html>
+    <script>
+        location.href = "/borad";
+    </script>
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Insert title here</title>
-    </head>
-
-    <body>
-        <h1>home.jsp file</h1>
-    </body>
-
-    </html>
+    <!-- 브라우저가 일을 해서 내 서버에 부하가 적음! -->
